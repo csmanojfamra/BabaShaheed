@@ -38,4 +38,12 @@ export const nav = [
   { href: "/contact/", label: "Contact" },
 ];
 
+export const legal = [
+  { href: "/terms/", label: "Terms and conditions" },
+  { href: "/privacy/", label: "Privacy policy" },
+  { href: "/refund-cancellation/", label: "Refund and cancellation" },
+  { href: "/shipping-delivery/", label: "Shipping and delivery" },
+  { href: "/disclaimer/", label: "Disclaimer" },
+];
+
 export const pending = "To be updated";

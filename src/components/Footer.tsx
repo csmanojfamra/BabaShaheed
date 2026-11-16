@@ -1,11 +1,11 @@
 import Link from "next/link";
-import { nav, pending, site } from "@/config/site";
+import { legal, nav, pending, site } from "@/config/site";
 
 export default function Footer() {
   return (
     <footer className="bg-navy-dark text-white/75">
       <div className="h-1 bg-gradient-to-r from-saffron via-white/40 to-leaf" />
-      <div className="container-site grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="container-site grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-5">
         <div className="lg:col-span-2">
           <div className="flex items-center gap-3">
             {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -44,6 +44,19 @@ export default function Footer() {
         </div>
 
         <div>
+          <p className="text-sm font-semibold uppercase tracking-widest text-white">Policies</p>
+          <ul className="mt-4 space-y-2 text-sm">
+            {legal.map((item) => (
+              <li key={item.href}>
+                <Link href={item.href} className="hover:text-white">
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div className="sm:col-span-2 lg:col-span-1">
           <p className="text-sm font-semibold uppercase tracking-widest text-white">Reach us</p>
           <ul className="mt-4 space-y-2 text-sm">
             <li>{site.address || `Address: ${pending}`}</li>
@@ -58,8 +71,6 @@ export default function Footer() {
         <div className="container-site flex flex-col gap-3 py-6 text-xs text-white/55 sm:flex-row sm:items-center sm:justify-between">
           <p>© {new Date().getFullYear()} {site.name}. All rights reserved.</p>
           <div className="flex gap-5">
-            <Link href="/privacy/" className="hover:text-white">Privacy</Link>
-            <Link href="/disclaimer/" className="hover:text-white">Disclaimer</Link>
             <Link href="/fair-practices/#grievance" className="hover:text-white">Grievance redressal</Link>
           </div>
         </div>
