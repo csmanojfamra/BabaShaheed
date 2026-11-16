@@ -5,7 +5,7 @@ import { pending, site } from "@/config/site";
 export const metadata: Metadata = {
   title: "Fair practices & grievance redressal",
   description:
-    "Our fair practices commitments on pricing, disclosure, recovery conduct and data, and how to raise a grievance with Babashaheed Micro Federation.",
+    "Our fair practices commitments on pricing, disclosure, recovery conduct and data, and how to raise a grievance with Babashaheedmicro Federation.",
 };
 
 const commitments = [

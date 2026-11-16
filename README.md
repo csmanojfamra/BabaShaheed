@@ -1,6 +1,6 @@
-# Babashaheed Micro Federation — Website
+# Babashaheedmicro Federation — Website
 
-Static website for Babashaheed Micro Federation, a Section 8 (not-for-profit)
+Static website for Babashaheedmicro Federation, a Section 8 (not-for-profit)
 company carrying on microfinance activities. Built with Next.js 14 and Tailwind CSS.
 
 ## Run locally

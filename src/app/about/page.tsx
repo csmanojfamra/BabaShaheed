@@ -6,7 +6,7 @@ import { pending, site } from "@/config/site";
 export const metadata: Metadata = {
   title: "About us",
   description:
-    "Learn about Babashaheed Micro Federation, a not-for-profit Section 8 company working for the financial inclusion of low-income households.",
+    "Learn about Babashaheedmicro Federation, a not-for-profit Section 8 company working for the financial inclusion of low-income households.",
 };
 
 const values = [
@@ -19,6 +19,7 @@ const values = [
 export default function AboutPage() {
   const facts = [
     { label: "Legal form", value: site.legalForm },
+    { label: "Category", value: site.category },
     { label: "Corporate Identity Number (CIN)", value: site.cin || pending },
     { label: "Date of incorporation", value: site.incorporated || pending },
     { label: "Registrar of Companies", value: site.roc || pending },
@@ -31,7 +32,7 @@ export default function AboutPage() {
       <PageHeader
         eyebrow="About us"
         title="A federation built on trust, for families who deserve a fair chance"
-        intro="Babashaheed Micro Federation is a not-for-profit company registered under Section 8 of the Companies Act, 2013. We exist to make small, fair and responsible credit available to people that mainstream banking often leaves out."
+        intro="Babashaheedmicro Federation is a not-for-profit company registered under Section 8 of the Companies Act, 2013. We exist to make small, fair and responsible credit available to people that mainstream banking often leaves out."
       />
 
       <section className="section">

@@ -5,7 +5,7 @@ import Icon from "@/components/Icon";
 
 export const metadata: Metadata = {
   title: "How it works",
-  description: "Eligibility, documents required and the step-by-step loan process at Babashaheed Micro Federation.",
+  description: "Eligibility, documents required and the step-by-step loan process at Babashaheedmicro Federation.",
 };
 
 const steps = [

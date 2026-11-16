@@ -44,7 +44,7 @@ export default function Home() {
               <span className="text-saffron">Big futures.</span>
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink-soft">
-              Babashaheed Micro Federation helps women, small entrepreneurs and rural families access fair,
+              Babashaheedmicro Federation helps women, small entrepreneurs and rural families access fair,
               collateral-free credit, and the know-how to use it well.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
@@ -65,7 +65,7 @@ export default function Home() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/images/logo-mark.png"
-              alt="Babashaheed Micro Federation emblem: a hand supporting a family, with a growing leaf"
+              alt="Babashaheedmicro Federation emblem: a hand supporting a family, with a growing leaf"
               width={512}
               height={512}
               className="relative w-full"

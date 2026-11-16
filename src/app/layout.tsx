@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     template: `%s | ${site.name}`,
   },
   description:
-    "Babashaheed Micro Federation is a not-for-profit Section 8 company under the Companies Act, 2013, providing collateral-free microloans, self-help group finance and financial literacy to low-income households.",
+    "Babashaheedmicro Federation is a not-for-profit Section 8 company based in Chomu, Jaipur (Rajasthan), providing collateral-free microloans, self-help group finance and financial literacy to low-income households.",
   icons: { icon: "/favicon.ico", apple: "/apple-touch-icon.png" },
   openGraph: {
     type: "website",

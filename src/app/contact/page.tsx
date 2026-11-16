@@ -6,7 +6,7 @@ import { pending, site } from "@/config/site";
 
 export const metadata: Metadata = {
   title: "Contact & apply",
-  description: "Contact Babashaheed Micro Federation or send a loan enquiry. A field officer will get in touch.",
+  description: "Contact Babashaheedmicro Federation or send a loan enquiry. A field officer will get in touch.",
 };
 
 export default function ContactPage() {
