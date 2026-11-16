@@ -13,7 +13,7 @@ export const site = {
   roc: "RoC Jaipur",
   pan: "", // TODO (optional)
   category: "Private company limited by guarantee",
-  registrations: [] as { label: string; value: string }[], // TODO: 12A / 80G / NGO Darpan if held
+  registrations: [] as { label: string; value: string }[], // none held yet (no 12A / 80G)
 
   phone: "", // TODO: e.g. +91 98xxxxxxxx
   whatsapp: "", // TODO: digits only with country code, e.g. 9198xxxxxxxx
