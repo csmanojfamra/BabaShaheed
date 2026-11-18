@@ -21,7 +21,7 @@ export const site = {
   address: "Morija Road, By-pass Puliya ke paas, Chomu, Jaipur, Rajasthan 303702",
   hours: "Monday – Saturday, 10:00 AM – 5:30 PM", // TODO: confirm
 
-  grievanceOfficer: { name: "", phone: "", email: "" }, // TODO
+  grievanceOfficer: { name: "Tinku Sharma", phone: "+91 75685 31416", email: "hello@babashaheedmicro.in" },
 
   directors: [
     { name: "Indra Kumar Sharma", role: "Director", din: "11887950" },
