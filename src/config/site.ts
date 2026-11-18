@@ -5,7 +5,7 @@ export const site = {
   name: "Babashaheedmicro Federation",
   shortName: "Babashaheed",
   tagline: "Small loans. Big futures.",
-  url: "https://www.babashaheedmicrofederation.org", // TODO: confirm domain
+  url: "https://www.babashaheedmicro.in",
 
   legalForm: "Section 8 (not-for-profit) company under the Companies Act, 2013",
   cin: "U88900RJ2026NPL117052",
@@ -15,9 +15,9 @@ export const site = {
   category: "Private company limited by guarantee",
   registrations: [] as { label: string; value: string }[], // none held yet (no 12A / 80G)
 
-  phone: "", // TODO: e.g. +91 98xxxxxxxx
-  whatsapp: "", // TODO: digits only with country code, e.g. 9198xxxxxxxx
-  email: "bsmicrofederation@gmail.com",
+  phone: "+91 75685 31416",
+  whatsapp: "917568531416",
+  email: "hello@babashaheedmicro.in",
   address: "Morija Road, By-pass Puliya ke paas, Chomu, Jaipur, Rajasthan 303702",
   hours: "Monday – Saturday, 10:00 AM – 5:30 PM", // TODO: confirm
 
