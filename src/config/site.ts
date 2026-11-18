@@ -15,13 +15,13 @@ export const site = {
   category: "Private company limited by guarantee",
   registrations: [] as { label: string; value: string }[], // none held yet (no 12A / 80G)
 
-  phone: "+91 75685 31416",
-  whatsapp: "917568531416",
+  phone: "+91 75685 41416",
+  whatsapp: "917568541416",
   email: "hello@babashaheedmicro.in",
   address: "Morija Road, By-pass Puliya ke paas, Chomu, Jaipur, Rajasthan 303702",
   hours: "Monday – Saturday, 10:00 AM – 5:30 PM", // TODO: confirm
 
-  grievanceOfficer: { name: "Tinku Sharma", phone: "+91 75685 31416", email: "hello@babashaheedmicro.in" },
+  grievanceOfficer: { name: "Tinku Sharma", phone: "+91 75685 41416", email: "hello@babashaheedmicro.in" },
 
   directors: [
     { name: "Indra Kumar Sharma", role: "Director", din: "11887950" },
